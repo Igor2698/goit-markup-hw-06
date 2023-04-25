@@ -6,6 +6,12 @@ h2,
 h3 {
   margin: 0;
 }
+button {
+  padding: 0;
+}
+label {
+  display: block;
+}
 p {
   margin: 0;
 }
@@ -53,7 +59,6 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  
 }
 
 .button-modal {
@@ -69,14 +74,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .button-modal:hover {
   background-color: #404bbf;
   cursor: pointer;
 }
-
 
 .container {
   width: 1158px;
@@ -505,6 +508,71 @@ ul {
 
 /* footer */
 
+.img-footer {
+  margin-left: 16px;
+}
+
+.footer-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.footer-button {
+  padding-bottom: 16px;
+}
+
+.button-footer {
+  padding: 8px 16px;
+  height: 40px;
+
+  min-width: 165px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gg {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-logo {
+  margin-right: 120px;
+}
+
+
+.group-footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.div-footer {
+  display: flex;
+}
+
+.input-footer {
+  width: 264px;
+  padding: 8px 0 8px 16px;
+  margin-top: 16px;
+}
+
 .list-item-svg-ft {
   width: 40px;
   height: 40px;
@@ -527,6 +595,7 @@ ul {
 }
 
 .footer-soc-lin {
+  margin-right: 80px;
 }
 
 .list-svg-footer {
@@ -537,7 +606,6 @@ ul {
 .cont-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .text-footer {

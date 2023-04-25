@@ -30,9 +30,24 @@
     <header class="header">
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button type="button" class="button-modal" data-modal-close>
-            <img src="./images/close-black-18dp (2) 1.svg" alt="" />
-          </button>
+          
+          
+          <form class="form-modal">
+            <button type="button" class="button-modal" data-modal-close>
+              <img src="./images/close-black-18dp (2) 1.svg" alt="" />
+            </button>
+            <p>Leave your contacts and we will call you back</p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="phone">Phone</label>
+            <input type="tel" name="tel" id="tel" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label class="comment">Comment</label>
+            <textarea name="comment" id="comment" rows="8"></textarea>
+            <input type="checkbox" name="accept" value="accept" id="accept">
+            <label for="accept">I accept the terms and conditions of the Privacy Policy</label>
+          </form>
         </div>
       </div>
       <div class="container-header container">
@@ -407,7 +422,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container cont-footer">
-        <div>
+        <div class="footer-logo">
           <a href="./index.html" class="logo logo-footer link">
             Web<span class="logo-span-footer">Studio</span>
           </a>
@@ -449,6 +464,27 @@
             </li>
           </ul>
         </div>
+
+        <form>
+          <div class="div-footer">
+            <div role="group" class="group-footer">
+              <label class="footer-label" for="email">Subscribe</label>
+              <input
+                placeholder="E-mail"
+                class="input-footer"
+                type="email"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="gg">
+              <button class="button-footer" type="submit">
+                Subscribe
+                <img class="img-footer" src="./images/icon send.svg" />
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
