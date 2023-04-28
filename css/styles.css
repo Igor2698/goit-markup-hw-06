@@ -107,6 +107,9 @@ body {
 .checkbox-form:checked + .label-form span svg {
   border: none;
   opacity: 1;
+  
+  
+ 
 }
 
 .span-acess-form {
@@ -115,6 +118,10 @@ body {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .checkbox-form {
