@@ -72,6 +72,7 @@ body {
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  height: 40px;
 
   padding: 11px 38px 11px 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -149,12 +150,9 @@ body {
 
 .item-form {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
-.item-form:last-child {
-  margin-bottom: 24px;
-}
 
 .accepting {
   display: flex;
@@ -177,6 +175,8 @@ body {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.04em;
+  margin-bottom: 16px;
+  height: 120px;
 
   width: 100%;
   outline: none;
@@ -196,12 +196,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scaleY(1);
-  min-height: 584px;
+  
   width: 408px;
   opacity: 1;
   background-color: #fcfcfc;
 
-  z-index: 2;
+
 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
