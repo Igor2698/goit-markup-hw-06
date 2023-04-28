@@ -56,7 +56,7 @@ body {
 
   color: #2e2f42;
 
-  margin-bottom: 34px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -127,11 +127,7 @@ body {
   overflow: hidden;
 }
 
-.accepting {
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
-}
+
 
 .label-form {
   display: flex;
@@ -153,10 +149,16 @@ body {
 
 .item-form {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .item-form:last-child {
+  margin-bottom: 24px;
+}
+
+.accepting {
+  display: flex;
+  align-items: center;
   margin-bottom: 24px;
 }
 
@@ -302,7 +304,7 @@ ul {
 .header-link {
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
