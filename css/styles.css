@@ -107,10 +107,11 @@ body {
 .checkbox-form:checked + .label-form span svg {
   border: none;
   opacity: 1;
-  
-  
- 
-}
+  }
+
+  .link-modal{
+    color: #4D5AE5;
+  }
 
 .span-acess-form {
   margin-right: 8px;
