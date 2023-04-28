@@ -99,15 +99,13 @@ body {
 }
 
 .access-form {
- opacity: 0;
+  opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-form:checked + .label-form .span-acess-form .access-form {
   border: none;
   opacity: 1;
-
-  
 }
 
 .span-acess-form {
@@ -128,8 +126,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
 
 .accepting {
   display: flex;
@@ -656,10 +652,6 @@ ul {
 
 /* footer */
 
-.img-footer {
-  margin-left: 16px;
-}
-
 .text-wrapper {
   font-weight: 500;
   font-size: 16px;
@@ -671,12 +663,13 @@ ul {
   margin-bottom: 16px;
 }
 
+
+
 .button-footer {
-  top: 0;
-  right: 0;
+  
   border-radius: 4px;
   border: none;
-  height: 40px;
+  min-height: 40px;
 
   min-width: 165px;
 
@@ -687,11 +680,11 @@ ul {
 
   display: flex;
   align-items: center;
-  text-align: center;
+
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-
+  gap: 16px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
